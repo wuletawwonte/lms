@@ -1,10 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../images/logo.png'
+import './Sidemenu.scss'
 
 export default function Sidemenu() {
   return (
-    <nav>
+    <nav className="sidemenu">
         <NavLink to="/">
             <img src={logo} alt="logo" />
         </NavLink>
