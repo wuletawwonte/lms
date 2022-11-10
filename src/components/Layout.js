@@ -9,12 +9,16 @@ import './Layout.scss'
 export default function Layout() {
   return (
     <div className="container">
-        <Sidemenu />
-        <Routes>
-            <Route element={<Tutors />} path="/tutors" exact />
-            <Route element={<Languages />} path="/"/>
-            <Route element={<NoMatch />} path="/*" />
-        </Routes>
+        <div className="container__sidemenu">
+            <Sidemenu />
+        </div>
+        <main>
+            <Routes>
+                <Route element={<Tutors />} path="/tutors" exact />
+                <Route element={<Languages />} path="/"/>
+                <Route element={<NoMatch />} path="/*" />
+            </Routes>
+        </main>
     </div>
   )
 }

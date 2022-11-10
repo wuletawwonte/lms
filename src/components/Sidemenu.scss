@@ -1,4 +1,6 @@
 .sidemenu {
     display: flex;
+    flex-direction: column;
+    align-items:stretch;
     border: 1px solid red;
 }
