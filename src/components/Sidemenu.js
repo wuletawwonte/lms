@@ -11,7 +11,9 @@ export default function Sidemenu() {
         </NavLink>
         <ul>
             <li>
-                <NavLink to="/tutors">Tutors</NavLink>
+                <NavLink to="/tutors">
+                    Tutors
+                </NavLink>
             </li>
             <li>
                 <NavLink to="/">Languages</NavLink>
