@@ -1,9 +1,9 @@
 .container {
-    display: flex;
-    align-items: stretch;
+  display: flex;
+  align-items: stretch;
 
-    &__sidemenu {
-        flex-basis: 25%;
-        border-right: var(--border);
-    }
+  &__sidemenu {
+    flex-basis: 25%;
+    border-right: var(--border);
+  }
 }

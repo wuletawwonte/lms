@@ -1,41 +1,40 @@
 :root {
-    // Default font
-    --font-family-sans: 'Lato', -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, oxygen, ubuntu, cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
-    // Application colors
-    --color-primary: #000000;
-    --color-primary-accent: #031729;
-    --color-border: #edeef1;
-    --color-border-dark: #dedfe3;
-  
-    // Classical line heights
-    --line-height-headers: 1.1;
-    --line-height-body: 1.5;
-  
-    // Neutral colors
-    --color-white: #fff;
-    --color-background: #fcfaf7;
-    --color-background-2: #e8e2da;
-    --color-text-header: #0c121d;
-    --color-light: #eeecec;
-    
-    // Border
-    --border: solid 2px var(--color-light);
-  
-    // Shadows
-    --shadow-large: 2px 4px 10px #0000001a;
-    --shadow-small: 1px 3px 6px #0000001a;
-  
-    // Spacing for uniformity
-    --space-xxxs: 0.25rem;
-    --space-xxs: 0.375rem;
-    --space-xs: 0.5rem;
-    --space-s: 0.75rem;
-    --space-m: 1rem;
-    --space-l: 1.5rem;
-    --space-xl: 2rem;
-    --space-xxl: 2.5rem;
-    --space-xxxl: 3rem;
-    --space-xxxxl: 4rem;
-  }
-  
+  // Default font
+  --font-family-sans: 'Lato', -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, oxygen, ubuntu, cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  // Application colors
+  --color-primary: #000;
+  --color-primary-accent: #031729;
+  --color-border: #edeef1;
+  --color-border-dark: #dedfe3;
+
+  // Classical line heights
+  --line-height-headers: 1.1;
+  --line-height-body: 1.5;
+
+  // Neutral colors
+  --color-white: #fff;
+  --color-background: #fcfaf7;
+  --color-background-2: #e8e2da;
+  --color-text-header: #0c121d;
+  --color-light: #eeecec;
+
+  // Border
+  --border: solid 2px var(--color-light);
+
+  // Shadows
+  --shadow-large: 2px 4px 10px #0000001a;
+  --shadow-small: 1px 3px 6px #0000001a;
+
+  // Spacing for uniformity
+  --space-xxxs: 0.25rem;
+  --space-xxs: 0.375rem;
+  --space-xs: 0.5rem;
+  --space-s: 0.75rem;
+  --space-m: 1rem;
+  --space-l: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 2.5rem;
+  --space-xxxl: 3rem;
+  --space-xxxxl: 4rem;
+}
