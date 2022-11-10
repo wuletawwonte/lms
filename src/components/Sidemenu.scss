@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 7rem;
-    min-height: 100vh;
+    gap: 4rem;
+    min-height: 100%;
 
     ul {
         display: flex;
@@ -15,6 +15,11 @@
         a {
             display: flex;
             align-items: center;
+            gap: 1ch;
         }
+    }
+
+    &__logo {
+        padding: 1rem;
     }
 }
