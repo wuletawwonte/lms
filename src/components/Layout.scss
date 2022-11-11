@@ -6,4 +6,10 @@
     flex-basis: 25%;
     border-right: var(--border);
   }
+
+  main {
+    position: relative;
+    flex-grow: 1;
+    padding-top: 6rem;
+  }
 }
