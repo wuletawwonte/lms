@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { BsCaretDownFill, BsCaretLeftFill } from 'react-icons/bs';
-import images from '../services/importFlags';
-import allCountries from '../services/countries';
+import images, { allCountries } from '../services/importFlags';
 import './FlagsDropdown.scss';
 
 export default function FlagsDropdown() {
