@@ -3,9 +3,15 @@
 
   &__button {
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    background: none;
+    
 
     &__image {
-      width: 2rem;
+      width: 3rem;
     }
   }
 

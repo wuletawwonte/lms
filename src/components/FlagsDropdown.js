@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BsCaretDownFill, BsCaretLeftFill } from 'react-icons/bs';
 import images from '../services/importFlags';
 import allCountries from '../services/countries';
 import './FlagsDropdown.scss';
@@ -24,6 +25,7 @@ export default function FlagsDropdown() {
           alt="Flags of Afghanistan"
           className="flags__button__image"
         />
+        {isActive ? <BsCaretLeftFill /> : <BsCaretDownFill />}
       </button>
       {isActive && (
         <div className="flags__list">
