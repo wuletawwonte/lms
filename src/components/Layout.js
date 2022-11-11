@@ -5,6 +5,7 @@ import NoMatch from '../pages/NoMatch';
 import Tutors from '../pages/Tutors';
 import Sidemenu from './Sidemenu';
 import './Layout.scss';
+import Header from './Header';
 
 export default function Layout() {
   return (
@@ -13,6 +14,7 @@ export default function Layout() {
         <Sidemenu />
       </div>
       <main>
+        <Header />
         <Routes>
           <Route element={<Tutors />} path="/tutors" exact />
           <Route element={<Languages />} path="/" />
