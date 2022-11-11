@@ -6,7 +6,7 @@ import './Header.scss';
 export default function Header() {
   return (
     <header className="header">
-      <span>M</span>
+      <span className="header__avatar">M</span>
       <Link to="/">Welcome</Link>
       <FlagsDropdown />
     </header>

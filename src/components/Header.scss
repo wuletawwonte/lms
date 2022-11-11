@@ -10,7 +10,7 @@ header {
     padding-right: 3rem;
     gap: 1rem;
 
-    span {
+    &__avatar {
         border: 1px solid black;
         font-size: 2rem;
         border-radius: 50%;

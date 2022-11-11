@@ -5,7 +5,7 @@ import './FlagsDropdown.scss';
 
 export default function FlagsDropdown() {
   const [isActive, setIsActive] = useState(false);
-  const [country, setCountry] = useState('India.gif');
+  const [country, setCountry] = useState('India');
 
   function handleClick() {
     setIsActive(!isActive);
@@ -20,7 +20,7 @@ export default function FlagsDropdown() {
     <div className="flags">
       <button type="button" className="flags__button" onClick={handleClick}>
         <img
-          src={images[country]}
+          src={images[`${country}.gif`]}
           alt="Flags of Afghanistan"
           className="flags__button__image"
         />
@@ -33,7 +33,8 @@ export default function FlagsDropdown() {
               key={item}
               onClick={() => changeCountry(item)}
             >
-              {item}
+              <img src={images[`${item}.gif`]} alt={item} />
+              <span>{item}</span>
             </button>
           ))}
         </div>
