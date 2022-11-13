@@ -6,8 +6,8 @@ export default function Languages() {
   return (
     <div className="languages">
       <form>
-        <input type="search" placeholder="Search Language" />
-        <button type="submit">
+        <input type="search" placeholder="Search Language" className="search" />
+        <button type="submit" className="submit">
           <FaSearch />
         </button>
       </form>
