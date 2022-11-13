@@ -1,11 +1,13 @@
 .languages {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
   padding: 5rem;
 
   form {
     width: 40%;
-    border: 1px solid gray;
+    border: var(--button-border);
     border-radius: var(--border-radius);
     height: 2.3rem;
     display: flex;
@@ -42,4 +44,44 @@
       color: black;
     }
   }
+
+  &__filters {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+
+    button {
+      background-color: transparent;
+      border: var(--button-border);
+      border-radius: var(--border-radius);
+      height: 3.5rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: aliceblue;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      font-weight: bolder;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 2rem;
+
+      button:first-child {
+        flex-grow: 1;
+      }
+
+      button:last-child {
+        flex-basis: 40%;
+      }
+
+
+    }
+
+  }
+
 }

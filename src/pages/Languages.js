@@ -11,6 +11,37 @@ export default function Languages() {
           <FaSearch />
         </button>
       </form>
+
+      <div className="languages__filters">
+        <button type="button">
+          <h3>Global</h3>
+          <span>Top 20 spoken Languages</span>
+        </button>
+        <div className="button-row">
+          <button type="button">
+            <h3>Africa Continent</h3>
+            <span>Top 20 spoken Languages</span>
+          </button>
+          <button type="button">
+            <h3>Sub-continental</h3>
+            <span>Top 20 spoken Languages</span>
+          </button>
+        </div>
+        <div className="button-row">
+          <button type="button">
+            <h3>Country</h3>
+            <span>Top 20 spoken Languages</span>
+          </button>
+          <button type="button">
+            <h3>Provinse/state</h3>
+            <span>Top 20 spoken Languages</span>
+          </button>
+        </div>
+        <button type="button">
+          <h3>Global</h3>
+          <span>Top 20 spoken Languages</span>
+        </button>
+      </div>
     </div>
   );
 }
