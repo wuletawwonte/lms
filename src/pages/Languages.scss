@@ -1,0 +1,45 @@
+.languages {
+  display: flex;
+  align-items: center;
+  padding: 5rem;
+
+  form {
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: var(--border-radius);
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1ch;
+    padding-right: 1ch;
+
+    input[type="search"] {
+      border: none;
+      flex-grow: 1;
+      background-color: transparent;
+    } 
+
+    input[type="search"]:focus {
+      border: none;
+      outline: none;
+    }
+
+    button[type="submit"] {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: gray;
+    }
+
+    input[type="search"]::-webkit-search-decoration,
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-results-button,
+    input[type="search"]::-webkit-search-results-decoration {
+      -webkit-appearance:none;
+    }
+
+    button[type="submit"]:hover {
+      color: black;
+    }
+  }
+}
