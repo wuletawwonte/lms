@@ -9,12 +9,11 @@
   &__sidemenu {
     flex-basis: 25%;
     border-right: var(--border);
-    position: absolute;
     background-color: white;
     z-index: 10;
     min-height: 100vh;
     position: absolute;
-    
+
     @include breakpoint(lg) {
       display: block;
       position: inherit;
