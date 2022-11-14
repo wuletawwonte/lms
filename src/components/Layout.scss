@@ -9,10 +9,15 @@
   &__sidemenu {
     flex-basis: 25%;
     border-right: var(--border);
-    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+    min-height: 100vh;
+    position: absolute;
     
     @include breakpoint(lg) {
       display: block;
+      position: inherit;
     }
   }
 
@@ -31,11 +36,6 @@
       top: 4rem;
       cursor: pointer;
       z-index: 10;
-      display: block;
-
-      @include breakpoint(lg) {
-        display: none;
-      }
     }
   }
 }
