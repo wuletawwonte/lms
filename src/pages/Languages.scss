@@ -1,9 +1,15 @@
+@import '../styles/mixins.scss';
+
 .languages {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
-  padding: 5rem;
+  padding: 1rem;
+
+  @include breakpoint(lg) {
+    padding: 5rem;
+  }
 
   form {
     width: 40%;
@@ -69,7 +75,12 @@
 
     .button-row {
       display: flex;
+      flex-direction: column;
       gap: 1.8rem;
+
+      @include breakpoint(lg) {
+        flex-direction: row;
+      }
 
       button:first-child {
         flex-grow: 1;
