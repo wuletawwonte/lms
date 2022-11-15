@@ -33,12 +33,12 @@ export default function Languages() {
             <span>Top 20 spoken Languages</span>
           </button>
           <button type="button">
-            <h3>Provinse/state</h3>
+            <h3>Provinse/State</h3>
             <span>Top 20 spoken Languages</span>
           </button>
         </div>
         <button type="button">
-          <h3>Global</h3>
+          <h3>City/Town</h3>
           <span>Top 20 spoken Languages</span>
         </button>
       </div>

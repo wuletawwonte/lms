@@ -1,16 +1,40 @@
+@import '../styles/mixins.scss';
+
 .container {
   display: flex;
   align-items: stretch;
   min-height: 100vh;
+  position: relative;
 
   &__sidemenu {
     flex-basis: 25%;
     border-right: var(--border);
+    background-color: white;
+    z-index: 10;
+    min-height: 100vh;
+    position: absolute;
+
+    @include breakpoint(lg) {
+      display: block;
+      position: inherit;
+    }
   }
 
   main {
     position: relative;
     flex-grow: 1;
     padding-top: 6rem;
+
+    .toggle-sidemenu {
+      padding: 5px;
+      border: var(--border);
+      border-left: none;
+      background-color: transparent;
+      font-size: 1.6rem;
+      position: absolute;
+      top: 4rem;
+      cursor: pointer;
+      z-index: 10;
+    }
   }
 }
