@@ -7,12 +7,13 @@
 
 ---
 
-## Screenshot
-
-
 ## Live version
 
-For the live version of this project visit the following [Netlify](https://global-covid-data-tracker.netlify.app/) link.
+For the live version of this project visit the following [Link](https://wuletawwonte.github.io/lms/).
+
+## Screenshot
+
+![FireShot Capture 008 - React App - wuletawwonte github io](https://user-images.githubusercontent.com/12524453/201879054-232915ac-8db9-4c54-a44e-ef40b233ab72.png)
 
 ## Get started
 
