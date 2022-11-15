@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lms/static/css/main.feb3041f.css",
-    "main.js": "/lms/static/js/main.6fca72c6.js",
+    "main.js": "/lms/static/js/main.7859992c.js",
     "static/media/logo.png": "/lms/static/media/logo.8b4492d841ee7a032689.png",
     "static/media/Northern Mariana Islands.gif": "/lms/static/media/Northern Mariana Islands.76cd45d815550b6eabff.gif",
     "static/media/Bhutan.gif": "/lms/static/media/Bhutan.45151f8e7631df1502a4.gif",
@@ -45,10 +45,10 @@
     "static/media/Dominica.gif": "/lms/static/media/Dominica.38bdf171b6f9efd1ad0a.gif",
     "index.html": "/lms/index.html",
     "main.feb3041f.css.map": "/lms/static/css/main.feb3041f.css.map",
-    "main.6fca72c6.js.map": "/lms/static/js/main.6fca72c6.js.map"
+    "main.7859992c.js.map": "/lms/static/js/main.7859992c.js.map"
   },
   "entrypoints": [
     "static/css/main.feb3041f.css",
-    "static/js/main.6fca72c6.js"
+    "static/js/main.7859992c.js"
   ]
 }
