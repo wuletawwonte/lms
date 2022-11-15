@@ -28,9 +28,9 @@ export default function Layout() {
         </button>
         <Header />
         <Routes>
-          <Route element={<Tutors />} path="/tutors" exact />
-          <Route element={<Languages />} path="/" />
-          <Route element={<NoMatch />} path="/*" />
+          <Route element={<Tutors />} path="/lms/tutors" exact />
+          <Route element={<Languages />} path="/lms/" />
+          <Route element={<NoMatch />} path="/lms/*" />
         </Routes>
       </main>
     </div>
