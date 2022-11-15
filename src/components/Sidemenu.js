@@ -13,13 +13,13 @@ import './Sidemenu.scss';
 export default function Sidemenu() {
   return (
     <nav className="sidemenu">
-      <NavLink to="/" className="sidemenu__logo">
+      <NavLink to="/lms/" className="sidemenu__logo">
         <img src={logo} alt="logo" />
       </NavLink>
       <ul>
         <li>
           <NavLink
-            to="/tutors"
+            to="/lms/tutors"
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
             <FaHome />
@@ -28,7 +28,7 @@ export default function Sidemenu() {
         </li>
         <li>
           <NavLink
-            to="/"
+            to="/lms/"
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
             <FaLanguage />
@@ -37,7 +37,7 @@ export default function Sidemenu() {
         </li>
         <li>
           <NavLink
-            to="/lessons"
+            to="/lms/lessons"
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
             <FaVideo />
@@ -46,7 +46,7 @@ export default function Sidemenu() {
         </li>
         <li>
           <NavLink
-            to="/statistics"
+            to="/lms/statistics"
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
             <FaChartArea />
@@ -55,7 +55,7 @@ export default function Sidemenu() {
         </li>
         <li>
           <NavLink
-            to="/shoppingcart"
+            to="/lms/shoppingcart"
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
             <FaCartPlus />
